@@ -1,5 +1,6 @@
 #pragma once
 #include <memory>
+#include <chrono>
 
 
 namespace eng
@@ -20,5 +21,6 @@ namespace eng
 
 	private:
 		std::unique_ptr<Application> m_application;
+		std::chrono::steady_clock::time_point m_lastTimePoint;
 	};
 }

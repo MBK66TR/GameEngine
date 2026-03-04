@@ -42,8 +42,7 @@
               "RelativeToolTip": "engine\\source\\Application.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-02T04:12:06.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T04:12:06.223Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "engine\\source\\Application.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-02T04:12:07.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T04:12:07.043Z"
             },
             {
               "$type": "Document",
@@ -66,7 +64,7 @@
               "RelativeDocumentMoniker": "engine\\source\\Engine.h",
               "ToolTip": "C:\\Dev\\CppProjects\\GameEngine\\engine\\source\\Engine.h",
               "RelativeToolTip": "engine\\source\\Engine.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-02T04:08:45.996Z",
               "EditorCaption": ""
@@ -79,7 +77,7 @@
               "RelativeDocumentMoniker": "engine\\source\\Engine.cpp",
               "ToolTip": "C:\\Dev\\CppProjects\\GameEngine\\engine\\source\\Engine.cpp",
               "RelativeToolTip": "engine\\source\\Engine.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-02T04:08:45.326Z",
               "EditorCaption": ""
