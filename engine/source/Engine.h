@@ -2,25 +2,21 @@
 #include <memory>
 #include <chrono>
 
-
 namespace eng
 {
+    class Application;
+    class Engine
+    {
+    public:
+        bool Init();
+        void Run();
+        void Destroy();
 
-	class Application;
-	class Engine
-	{
-	public:
-		bool Init();
-		void Run();
-		void Destroy();
+        void SetApplication(Application* app);
+        Application* GetApplication();
 
-
-		void SetApplication(Application* app);
-		Application* GetApplication() const;
-	
-
-	private:
-		std::unique_ptr<Application> m_application;
-		std::chrono::steady_clock::time_point m_lastTimePoint;
-	};
+    private:
+        std::unique_ptr<Application> m_application;
+        std::chrono::steady_clock::time_point m_lastTimePoint;
+    };
 }

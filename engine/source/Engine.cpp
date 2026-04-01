@@ -3,51 +3,51 @@
 
 namespace eng
 {
-	bool Engine::Init()
-	{
-		if (!m_application)
-		{
-			return false;
-		}
-		return m_application->Init();
+    bool Engine::Init()
+    {
+        if (!m_application)
+        {
+            return false;
+        }
+        return m_application->Init();
+    }
 
-		return false;
-	}
+    void Engine::Run()
+    {
+        if (!m_application)
+        {
+            return;
+        }
 
-	void Engine::Run()
-	{
-		if (!m_application)
-		{
-			return;
-		}
+        // Initialize time tracking
+        m_lastTimePoint = std::chrono::steady_clock::now();
 
-		m_lastTimePoint = std::chrono::high_resolution_clock::now();
-		while (!m_application->NeedsToBeClose())
-		{
-			auto now = std::chrono::high_resolution_clock::now();
-			float deltaTime = std::chrono::duration<float>(now - m_lastTimePoint).count(); 
-			m_lastTimePoint = now;
+        while (!m_application->NeedsToBeClosed())
+        {
+            auto now = std::chrono::steady_clock::now();
+            float deltaTime = std::chrono::duration<float>(now - m_lastTimePoint).count();
+            m_lastTimePoint = now;
 
-			m_application->Update(deltaTime);
-		}
-	}
+            m_application->Update(deltaTime);
+        }
+    }
 
-	void Engine::Destroy()
-	{
-		if(m_application)
-		{
-			m_application->Destroy();
-			m_application.reset();
-		}
-	}
+    void Engine::Destroy()
+    {
+        if (m_application)
+        {
+            m_application->Destroy();
+            m_application.reset();
+        }
+    }
 
-	void Engine::SetApplication(Application* app)
-	{
-		m_application.reset(app);
-	}
+    void Engine::SetApplication(Application* app)
+    {
+        m_application.reset(app);
+    }
 
-	Application* Engine::GetApplication() const
-	{
-		return m_application.get();
-	}
+    Application* Engine::GetApplication()
+    {
+        return m_application.get();
+    }
 }

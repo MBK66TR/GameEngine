@@ -5,31 +5,28 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 project(Engine)
 
 set(PROJECT_SOURCE_FILES
-    source/Engine.h
-    source/Engine.cpp
-    source/Application.h
-    source/Application.cpp
+	source/Engine.h
+	source/Engine.cpp
+	source/Application.h
+	source/Application.cpp
 )
 
 include_directories(source)
-
 add_library(${PROJECT_NAME} ${PROJECT_SOURCE_FILES})
 
-# ==== Thirdparty setup ====
-
-# GLFW
+# Add GLFW library
 add_subdirectory(thirdparty/glfw-3.4 "${CMAKE_CURRENT_BINARY_DIR}/glfw_build")
 include_directories(thirdparty/glfw-3.4/include)
 
-# GLEW
+# Add Glew library
 set(BUILD_UTILS OFF CACHE BOOL "utilities" FORCE)
 add_subdirectory(thirdparty/glew/build/cmake "${CMAKE_CURRENT_BINARY_DIR}/glew_build")
 include_directories(thirdparty/glew/include)
-
 set_property(TARGET glew_s PROPERTY FOLDER GLEW)
-set_property(TARGET glew   PROPERTY FOLDER GLEW)
+set_property(TARGET glew PROPERTY FOLDER GLEW)
 
-target_link_libraries(${PROJECT_NAME}
-    glfw
+# Link all thirdparty libraries
+target_link_libraries(${PROJECT_NAME} 
+    glfw 
     glew_s
 )

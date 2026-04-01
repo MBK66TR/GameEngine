@@ -8,7 +8,9 @@
   "ExpandedNodes": [
     "",
     "\\engine",
-    "\\engine\\source"
+    "\\engine\\source",
+    "\\source"
   ],
+  "SelectedNode": "\\engine\\source\\Engine.cpp",
   "PreviewInSolutionExplorer": false
 }

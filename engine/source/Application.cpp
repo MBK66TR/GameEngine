@@ -1,18 +1,14 @@
 #include "Application.h"
 
-
-
-
 namespace eng
 {
-	void Application::SetNeedsToBeClose(bool value)
-	{
-		m_needsToBeClose = value;
-	}
+    void Application::SetNeedsToBeClosed(bool value)
+    {
+        m_needsToBeClosed = value;
+    }
 
-
-	bool Application::NeedsToBeClose() const
-	{
-		return m_needsToBeClose;
-	}
+    bool Application::NeedsToBeClosed() const
+    {
+        return m_needsToBeClosed;
+    }
 }
