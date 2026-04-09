@@ -9,8 +9,9 @@
     "",
     "\\engine",
     "\\engine\\source",
+    "\\engine\\source\\input",
     "\\source"
   ],
-  "SelectedNode": "\\engine\\source\\Engine.cpp",
+  "SelectedNode": "\\source\\Game.cpp",
   "PreviewInSolutionExplorer": false
 }
