@@ -181,6 +181,24 @@ build engine_build\CMakeFiles\Engine.dir\source\input\InputManager.cpp.obj: CXX_
   TARGET_COMPILE_PDB = engine_build\CMakeFiles\Engine.dir\Engine.pdb
   TARGET_PDB = engine_build\Engine.pdb
 
+build engine_build\CMakeFiles\Engine.dir\source\graphics\ShaderProgram.cpp.obj: CXX_COMPILER__Engine_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\source\graphics\ShaderProgram.cpp || cmake_object_order_depends_target_Engine
+  DEFINES = -DGLEW_NO_GLU -DGLEW_STATIC
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include
+  OBJECT_DIR = engine_build\CMakeFiles\Engine.dir
+  OBJECT_FILE_DIR = engine_build\CMakeFiles\Engine.dir\source\graphics
+  TARGET_COMPILE_PDB = engine_build\CMakeFiles\Engine.dir\Engine.pdb
+  TARGET_PDB = engine_build\Engine.pdb
+
+build engine_build\CMakeFiles\Engine.dir\source\graphics\GraphicsAPI.cpp.obj: CXX_COMPILER__Engine_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\source\graphics\GraphicsAPI.cpp || cmake_object_order_depends_target_Engine
+  DEFINES = -DGLEW_NO_GLU -DGLEW_STATIC
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include
+  OBJECT_DIR = engine_build\CMakeFiles\Engine.dir
+  OBJECT_FILE_DIR = engine_build\CMakeFiles\Engine.dir\source\graphics
+  TARGET_COMPILE_PDB = engine_build\CMakeFiles\Engine.dir\Engine.pdb
+  TARGET_PDB = engine_build\Engine.pdb
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target Engine
@@ -189,7 +207,7 @@ build engine_build\CMakeFiles\Engine.dir\source\input\InputManager.cpp.obj: CXX_
 #############################################
 # Link the static library engine_build\Engine.lib
 
-build engine_build\Engine.lib: CXX_STATIC_LIBRARY_LINKER__Engine_Debug engine_build\CMakeFiles\Engine.dir\source\Engine.cpp.obj engine_build\CMakeFiles\Engine.dir\source\Application.cpp.obj engine_build\CMakeFiles\Engine.dir\source\input\InputManager.cpp.obj || engine_build\glfw_build\src\glfw3.lib lib\libglew32d.lib
+build engine_build\Engine.lib: CXX_STATIC_LIBRARY_LINKER__Engine_Debug engine_build\CMakeFiles\Engine.dir\source\Engine.cpp.obj engine_build\CMakeFiles\Engine.dir\source\Application.cpp.obj engine_build\CMakeFiles\Engine.dir\source\input\InputManager.cpp.obj engine_build\CMakeFiles\Engine.dir\source\graphics\ShaderProgram.cpp.obj engine_build\CMakeFiles\Engine.dir\source\graphics\GraphicsAPI.cpp.obj || engine_build\glfw_build\src\glfw3.lib lib\libglew32d.lib
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64
   OBJECT_DIR = engine_build\CMakeFiles\Engine.dir

@@ -9,9 +9,10 @@
     "",
     "\\engine",
     "\\engine\\source",
-    "\\engine\\source\\input",
+    "\\engine\\source\\graphics",
+    "\\engine\\thirdparty",
     "\\source"
   ],
-  "SelectedNode": "\\source\\Game.cpp",
+  "SelectedNode": "\\engine\\source\\Engine.h",
   "PreviewInSolutionExplorer": false
 }
