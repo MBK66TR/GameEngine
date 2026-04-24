@@ -6,9 +6,9 @@
 
 namespace eng
 {
-    void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods)
+    void keyCallback(GLFWwindow* window, int key, int, int action, int)
     {
-		auto& inputManager = eng::Engine::GetInstance().GetInputManager();
+        auto& inputManager = eng::Engine::GetInstance().GetInputManager();
         if (action == GLFW_PRESS)
         {
             inputManager.SetKeyPressed(key, true);
@@ -16,16 +16,14 @@ namespace eng
         else if (action == GLFW_RELEASE)
         {
             inputManager.SetKeyPressed(key, false);
-		}
-	}
-
+        }
+    }
 
     Engine& Engine::GetInstance()
     {
         static Engine instance;
         return instance;
-	}
-
+    }
 
     bool Engine::Init(int width, int height)
     {
@@ -55,8 +53,6 @@ namespace eng
             glfwTerminate();
             return false;
         }
-
-
 
         glfwSetKeyCallback(m_window, keyCallback);
 
@@ -90,6 +86,11 @@ namespace eng
 
             m_application->Update(deltaTime);
 
+            m_graphicsAPI.SetClearColor(1.0f, 1.0f, 1.0f, 1.0f);
+            m_graphicsAPI.ClearBuffers();
+
+            m_rederQueue.Draw(m_graphicsAPI);
+
             glfwSwapBuffers(m_window);
         }
     }
@@ -113,16 +114,20 @@ namespace eng
     Application* Engine::GetApplication()
     {
         return m_application.get();
-
     }
 
     InputManager& Engine::GetInputManager()
     {
         return m_inputManager;
-	}
+    }
 
     GraphicsAPI& Engine::GetGraphicsAPI()
     {
         return m_graphicsAPI;
+    }
+
+    RenderQueue& Engine::GetRenderQueue()
+    {
+        return m_rederQueue;
     }
 }

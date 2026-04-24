@@ -10,7 +10,6 @@ set(PROJECT_SOURCE_FILES
   source/Game.cpp
 )
 
-
 include_directories(engine/thirdparty/glew/include)
 
 # Add the application
