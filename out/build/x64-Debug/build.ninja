@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_GameDevelopmentProject: phony || cmake_o
 build CMakeFiles\GameDevelopmentProject.dir\source\main.cpp.obj: CXX_COMPILER__GameDevelopmentProject_unscanned_Debug C$:\Dev\CppProjects\GameEngine\source\main.cpp || cmake_object_order_depends_target_GameDevelopmentProject
   DEFINES = -DGLEW_NO_GLU -DGLEW_STATIC
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include
   OBJECT_DIR = CMakeFiles\GameDevelopmentProject.dir
   OBJECT_FILE_DIR = CMakeFiles\GameDevelopmentProject.dir\source
   TARGET_COMPILE_PDB = CMakeFiles\GameDevelopmentProject.dir\
@@ -61,7 +61,7 @@ build CMakeFiles\GameDevelopmentProject.dir\source\main.cpp.obj: CXX_COMPILER__G
 build CMakeFiles\GameDevelopmentProject.dir\source\Game.cpp.obj: CXX_COMPILER__GameDevelopmentProject_unscanned_Debug C$:\Dev\CppProjects\GameEngine\source\Game.cpp || cmake_object_order_depends_target_GameDevelopmentProject
   DEFINES = -DGLEW_NO_GLU -DGLEW_STATIC
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include
   OBJECT_DIR = CMakeFiles\GameDevelopmentProject.dir
   OBJECT_FILE_DIR = CMakeFiles\GameDevelopmentProject.dir\source
   TARGET_COMPILE_PDB = CMakeFiles\GameDevelopmentProject.dir\
@@ -157,7 +157,7 @@ build cmake_object_order_depends_target_Engine: phony || cmake_object_order_depe
 build engine_build\CMakeFiles\Engine.dir\source\Engine.cpp.obj: CXX_COMPILER__Engine_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\source\Engine.cpp || cmake_object_order_depends_target_Engine
   DEFINES = -DGLEW_NO_GLU -DGLEW_STATIC
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include
   OBJECT_DIR = engine_build\CMakeFiles\Engine.dir
   OBJECT_FILE_DIR = engine_build\CMakeFiles\Engine.dir\source
   TARGET_COMPILE_PDB = engine_build\CMakeFiles\Engine.dir\Engine.pdb
@@ -166,7 +166,7 @@ build engine_build\CMakeFiles\Engine.dir\source\Engine.cpp.obj: CXX_COMPILER__En
 build engine_build\CMakeFiles\Engine.dir\source\Application.cpp.obj: CXX_COMPILER__Engine_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\source\Application.cpp || cmake_object_order_depends_target_Engine
   DEFINES = -DGLEW_NO_GLU -DGLEW_STATIC
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include
   OBJECT_DIR = engine_build\CMakeFiles\Engine.dir
   OBJECT_FILE_DIR = engine_build\CMakeFiles\Engine.dir\source
   TARGET_COMPILE_PDB = engine_build\CMakeFiles\Engine.dir\Engine.pdb
@@ -175,7 +175,7 @@ build engine_build\CMakeFiles\Engine.dir\source\Application.cpp.obj: CXX_COMPILE
 build engine_build\CMakeFiles\Engine.dir\source\input\InputManager.cpp.obj: CXX_COMPILER__Engine_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\source\input\InputManager.cpp || cmake_object_order_depends_target_Engine
   DEFINES = -DGLEW_NO_GLU -DGLEW_STATIC
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include
   OBJECT_DIR = engine_build\CMakeFiles\Engine.dir
   OBJECT_FILE_DIR = engine_build\CMakeFiles\Engine.dir\source\input
   TARGET_COMPILE_PDB = engine_build\CMakeFiles\Engine.dir\Engine.pdb
@@ -184,7 +184,7 @@ build engine_build\CMakeFiles\Engine.dir\source\input\InputManager.cpp.obj: CXX_
 build engine_build\CMakeFiles\Engine.dir\source\graphics\ShaderProgram.cpp.obj: CXX_COMPILER__Engine_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\source\graphics\ShaderProgram.cpp || cmake_object_order_depends_target_Engine
   DEFINES = -DGLEW_NO_GLU -DGLEW_STATIC
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include
   OBJECT_DIR = engine_build\CMakeFiles\Engine.dir
   OBJECT_FILE_DIR = engine_build\CMakeFiles\Engine.dir\source\graphics
   TARGET_COMPILE_PDB = engine_build\CMakeFiles\Engine.dir\Engine.pdb
@@ -193,7 +193,7 @@ build engine_build\CMakeFiles\Engine.dir\source\graphics\ShaderProgram.cpp.obj: 
 build engine_build\CMakeFiles\Engine.dir\source\graphics\GraphicsAPI.cpp.obj: CXX_COMPILER__Engine_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\source\graphics\GraphicsAPI.cpp || cmake_object_order_depends_target_Engine
   DEFINES = -DGLEW_NO_GLU -DGLEW_STATIC
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include
   OBJECT_DIR = engine_build\CMakeFiles\Engine.dir
   OBJECT_FILE_DIR = engine_build\CMakeFiles\Engine.dir\source\graphics
   TARGET_COMPILE_PDB = engine_build\CMakeFiles\Engine.dir\Engine.pdb
@@ -358,7 +358,7 @@ build cmake_object_order_depends_target_glfw: phony || .
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -367,7 +367,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\context.c.obj: C_COMPILER_
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -376,7 +376,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\init.c.obj: C_COMPILER__gl
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -385,7 +385,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\input.c.obj: C_COMPILER__g
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -394,7 +394,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\monitor.c.obj: C_COMPILER_
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\platform.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\platform.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -403,7 +403,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\platform.c.obj: C_COMPILER
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -412,7 +412,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\vulkan.c.obj: C_COMPILER__
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -421,7 +421,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\window.c.obj: C_COMPILER__
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -430,7 +430,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\egl_context.c.obj: C_COMPI
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -439,7 +439,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\osmesa_context.c.obj: C_CO
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\null_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\null_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -448,7 +448,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\null_init.c.obj: C_COMPILE
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\null_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\null_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -457,7 +457,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\null_monitor.c.obj: C_COMP
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\null_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\null_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -466,7 +466,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\null_window.c.obj: C_COMPI
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\null_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\null_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -475,7 +475,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\null_joystick.c.obj: C_COM
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\win32_module.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\win32_module.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -484,7 +484,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\win32_module.c.obj: C_COMP
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -493,7 +493,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\win32_time.c.obj: C_COMPIL
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -502,7 +502,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\win32_thread.c.obj: C_COMP
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -511,7 +511,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\win32_init.c.obj: C_COMPIL
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -520,7 +520,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\win32_joystick.c.obj: C_CO
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -529,7 +529,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\win32_monitor.c.obj: C_COM
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -538,7 +538,7 @@ build engine_build\glfw_build\src\CMakeFiles\glfw.dir\win32_window.c.obj: C_COMP
 build engine_build\glfw_build\src\CMakeFiles\glfw.dir\wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src\wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DGLEW_NO_GLU -DUNICODE -D_CRT_SECURE_NO_WARNINGS -D_GLFW_WIN32 -D_UNICODE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /W3
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\src -IC:\Dev\CppProjects\GameEngine\out\build\x64-Debug\engine_build\glfw_build\src
   OBJECT_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = engine_build\glfw_build\src\CMakeFiles\glfw.dir
   TARGET_COMPILE_PDB = engine_build\glfw_build\src\CMakeFiles\glfw.dir\glfw.pdb
@@ -704,7 +704,7 @@ build cmake_object_order_depends_target_glew: phony || .
 build engine_build\glew_build\CMakeFiles\glew.dir\__\__\src\glew.c.obj: C_COMPILER__glew_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\src\glew.c || cmake_object_order_depends_target_glew
   DEFINES = -DGLEW_BUILD -DGLEW_NO_GLU -DVC_EXTRALEAN -Dglew_EXPORTS
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od  -GS-
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\build\cmake\..\..\include
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\build\cmake\..\..\include
   OBJECT_DIR = engine_build\glew_build\CMakeFiles\glew.dir
   OBJECT_FILE_DIR = engine_build\glew_build\CMakeFiles\glew.dir\__\__\src
   TARGET_COMPILE_PDB = engine_build\glew_build\CMakeFiles\glew.dir\
@@ -714,7 +714,7 @@ build engine_build\glew_build\CMakeFiles\glew.dir\__\glew.rc.res: RC_COMPILER__g
   DEFINES = -DGLEW_BUILD -DGLEW_NO_GLU -DVC_EXTRALEAN -Dglew_EXPORTS
   DEP_FILE = engine_build\glew_build\CMakeFiles\glew.dir\__\glew.rc.res.d
   FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\Dev\CppProjects\GameEngine\source -I C:\Dev\CppProjects\GameEngine\engine\source -I C:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -I C:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\build\cmake\..\..\include
+  INCLUDES = -I C:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -I C:\Dev\CppProjects\GameEngine\source -I C:\Dev\CppProjects\GameEngine\engine\source -I C:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -I C:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\build\cmake\..\..\include
   OBJECT_DIR = engine_build\glew_build\CMakeFiles\glew.dir
   OBJECT_FILE_DIR = engine_build\glew_build\CMakeFiles\glew.dir\__
   TARGET_COMPILE_PDB = engine_build\glew_build\CMakeFiles\glew.dir\
@@ -753,7 +753,7 @@ build cmake_object_order_depends_target_glew_s: phony || .
 build engine_build\glew_build\CMakeFiles\glew_s.dir\__\__\src\glew.c.obj: C_COMPILER__glew_s_unscanned_Debug C$:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\src\glew.c || cmake_object_order_depends_target_glew_s
   DEFINES = -DGLEW_NO_GLU -DGLEW_STATIC -DVC_EXTRALEAN
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od  -GS-
-  INCLUDES = -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\build\cmake\..\..\include
+  INCLUDES = -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -IC:\Dev\CppProjects\GameEngine\source -IC:\Dev\CppProjects\GameEngine\engine\source -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -IC:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\build\cmake\..\..\include
   OBJECT_DIR = engine_build\glew_build\CMakeFiles\glew_s.dir
   OBJECT_FILE_DIR = engine_build\glew_build\CMakeFiles\glew_s.dir\__\__\src
   TARGET_COMPILE_PDB = engine_build\glew_build\CMakeFiles\glew_s.dir\glew_s.pdb
@@ -763,7 +763,7 @@ build engine_build\glew_build\CMakeFiles\glew_s.dir\__\glew.rc.res: RC_COMPILER_
   DEFINES = -DGLEW_NO_GLU -DGLEW_STATIC -DVC_EXTRALEAN
   DEP_FILE = engine_build\glew_build\CMakeFiles\glew_s.dir\__\glew.rc.res.d
   FLAGS = -DWIN32 -D_DEBUG
-  INCLUDES = -I C:\Dev\CppProjects\GameEngine\source -I C:\Dev\CppProjects\GameEngine\engine\source -I C:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -I C:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\build\cmake\..\..\include
+  INCLUDES = -I C:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\include -I C:\Dev\CppProjects\GameEngine\source -I C:\Dev\CppProjects\GameEngine\engine\source -I C:\Dev\CppProjects\GameEngine\engine\thirdparty\glfw-3.4\include -I C:\Dev\CppProjects\GameEngine\engine\thirdparty\glew\build\cmake\..\..\include
   OBJECT_DIR = engine_build\glew_build\CMakeFiles\glew_s.dir
   OBJECT_FILE_DIR = engine_build\glew_build\CMakeFiles\glew_s.dir\__
   TARGET_COMPILE_PDB = engine_build\glew_build\CMakeFiles\glew_s.dir\glew_s.pdb
