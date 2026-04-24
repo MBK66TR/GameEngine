@@ -1,5 +1,6 @@
 #pragma once
 #include "input/InputManager.h"
+#include "graphics/GraphicsAPI.h"
 #include <memory>
 #include <chrono>
 
@@ -23,7 +24,7 @@ namespace eng
         Engine& operator=(const Engine&) = delete;
         Engine& operator=(Engine&&) = delete;
 
-	public:
+    public:
         bool Init(int width, int height);
         void Run();
         void Destroy();
@@ -31,11 +32,13 @@ namespace eng
         void SetApplication(Application* app);
         Application* GetApplication();
         InputManager& GetInputManager();
+        GraphicsAPI& GetGraphicsAPI();
 
     private:
         std::unique_ptr<Application> m_application;
         std::chrono::steady_clock::time_point m_lastTimePoint;
         GLFWwindow* m_window = nullptr;
-		InputManager m_inputManager;
+        InputManager m_inputManager;
+        GraphicsAPI m_graphicsAPI;
     };
 }

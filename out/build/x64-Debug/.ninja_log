@@ -73,3 +73,8 @@
 1217	1534	7987325303833753	bin/glew32d.dll	dfe66703872157cf
 1217	1534	7987325303833753	lib/glew32d.lib	dfe66703872157cf
 1528	1768	7987325303983357	GameDevelopmentProject.exe	29f10cf59fea1770
+31	678	7987333684493157	CMakeFiles/GameDevelopmentProject.dir/source/main.cpp.obj	dce5bd9c1dff77d4
+22	759	7987333684355863	engine_build/CMakeFiles/Engine.dir/source/Engine.cpp.obj	11b5799f2574a365
+35	768	7987333684538420	CMakeFiles/GameDevelopmentProject.dir/source/Game.cpp.obj	ddc576d231adc884
+759	812	7987333691763252	engine_build/Engine.lib	72111e57536e388
+812	1040	7987333692259362	GameDevelopmentProject.exe	29f10cf59fea1770
