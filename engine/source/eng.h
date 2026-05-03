@@ -9,3 +9,5 @@
 #include "render/Material.h"
 #include "render/Mesh.h"
 #include "render/RenderQueue.h"
+#include "scene/Scene.h"
+#include "scene/GameObject.h"
